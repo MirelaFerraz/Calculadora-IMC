@@ -59,19 +59,19 @@
         result.innerHTML = 'Normal';
       }
       else if(imc >= 25 && imc < 30){
-        console.log('Sobrepeso | Obesidade: I');
+        console.log('Sobrepeso ou Obesidade: I');
         result.style.color = 'yellow';
-        result.innerHTML = 'Sobrepeso | Obesidade: I';
+        result.innerHTML = 'Sobrepeso ou Obesidade: I';
       }
       else if(imc >= 30 && imc < 40){
-      console.log('Obesidade | Obesidade: II');
+      console.log('Obesidade ou Obesidade: II');
       result.style.color = 'red';
-      result.innerHTML = 'Obesidade | Obesidade: II';
+      result.innerHTML = 'Obesidade ou Obesidade: II';
       }
       else{
-        console.log('Obesidade grave | Obesidade: III');
+        console.log('Obesidade grave ou Obesidade: III');
         result.style.color = 'black';
-        result.innerHTML = 'Obesidade grave | Obesidade: III';
+        result.innerHTML = 'Obesidade grave ou Obesidade: III';
       }
       go(2,3);
       }
