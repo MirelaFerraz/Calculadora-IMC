@@ -35,6 +35,9 @@ input{
   border: none;
   outline: none;
 }
+.categorias{
+  color: rgb(221, 216, 232)
+}
 #resultado{
   font-size: 25px;
 }
