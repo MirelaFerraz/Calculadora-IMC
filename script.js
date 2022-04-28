@@ -51,27 +51,27 @@
       if(imc < 18.5){
         console.log('Abaixo do peso');
         result.style.color = 'yellow';
-        result.innerHTML = 'Abaixo do peso';
+        result.innerHTML = 'Abaixo do peso' + " " + "-" + " Seu imc é " +  imc;
       }
       else if(imc >= 18.5 && imc < 25){
         console.log('Normal');
         result.style.color = 'green';
-        result.innerHTML = 'Normal';
+        result.innerHTML = 'Normal' + " " + "-" + " Seu imc é " +  imc;
       }
       else if(imc >= 25 && imc < 30){
-        console.log('Sobrepeso ou Obesidade: I');
+        console.log('Sobrepeso');
         result.style.color = 'yellow';
-        result.innerHTML = 'Sobrepeso ou Obesidade: I';
+        result.innerHTML = 'Sobrepeso' + " " + "-" + " Seu imc é " +  imc;
       }
       else if(imc >= 30 && imc < 40){
-      console.log('Obesidade ou Obesidade: II');
+      console.log('Obesidade');
       result.style.color = 'red';
-      result.innerHTML = 'Obesidade ou Obesidade: II';
+      result.innerHTML = 'Obesidade' + " " + "-" +" Seu imc é " +  imc;
       }
       else{
-        console.log('Obesidade grave ou Obesidade: III');
+        console.log('Obesidade grave');
         result.style.color = 'black';
-        result.innerHTML = 'Obesidade grave ou Obesidade: III';
+        result.innerHTML = 'Obesidade grave' + " " + "-" + " Seu imc é " +  imc;
       }
       go(2,3);
       }
