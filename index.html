@@ -9,7 +9,7 @@
 </head>
 
 <body>
-   <h1>Mirela Ferraz</h1>
+   <h1>Projeto feito por Mirela Ferraz</h1>
   <div class="container">
     <div class="first-step">
       <p>Clique no botão para calcular o seu IMC</p>
@@ -19,19 +19,32 @@
       <h3>Calculadora IMC</h3>
       <hr>
       <label for="peso">Digite seu peso:</label>
-      <input type="number" placeholder="Seu peso" id="peso">
+      <input type="number" placeholder="Ex: 72.5" id="peso">
       <br><br>
       <label for="altura">Digite a sua altura:</label>
-      <input type="number" placeholder="Sua altura" id="altura">
+      <input type="number" placeholder="Ex: 1.70" id="altura">
       <br><br>
       <button onclick="validate(2,3)">Calcular</button>
     </div>
     <div class="final-step">
       <h3>Resultado!</h3>
       <p id="resultado"></p>
+      <div class="categorias">
+        Abaixo do peso: menor que 18,5<br>
+        Normal: entre 18,5 e 24,9<br>
+        Sobrepeso: entre 25,0 e 29,9<br>
+        Obesidade: entre 30,0 e 39,9<br>
+        Obesidade grave: acima de 40,0
+      </div> 
+      <br>
+      <br>
+      <div class="aviso"><b>ATENÇÃO: Consulte sempre um profissional qualificado</b></div>
+      <br>
       <button onclick="go(3,2)">Calcular Novamente</button>
       <button onclick="go(3,1)">Finalizar</button>
+      
     </div>
+      
   </div> 
   <script src="script.js"></script>
 </body>
